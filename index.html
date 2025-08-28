@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Interactive Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>JavaScript Event Handling & Interactive Features</h1>
+  </header>
+
+  <main>
+    <!-- Part 1: Event Handling -->
+    <section id="events">
+      <h2>Part 1: Event Handling</h2>
+      <button id="clickBtn">Click Me!</button>
+      <p id="clickMessage"></p>
+
+      <p id="hoverText">Hover over me to change my color!</p>
+    </section>
+
+    <!-- Part 2: Interactive Elements -->
+    <section id="interactive">
+      <h2>Part 2: Interactive Elements</h2>
+
+      <!-- Light/Dark Mode Toggle -->
+      <button id="themeToggle">Toggle Light/Dark Mode</button>
+
+      <!-- Counter -->
+      <div class="counter">
+        <button id="decrement">-</button>
+        <span id="count">0</span>
+        <button id="increment">+</button>
+      </div>
+
+      <!-- Collapsible FAQ -->
+      <div class="faq">
+        <h3 class="faq-question">What is JavaScript?</h3>
+        <p class="faq-answer">JavaScript is a programming language for the web.</p>
+
+        <h3 class="faq-question">What is DOM?</h3>
+        <p class="faq-answer">DOM stands for Document Object Model.</p>
+      </div>
+    </section>
+
+    <!-- Part 3: Form Validation -->
+    <section id="formValidation">
+      <h2>Part 3: Form Validation</h2>
+      <form id="signupForm" novalidate>
+        <label>
+          Name:
+          <input type="text" id="name" placeholder="Your name">
+        </label>
+        <label>
+          Email:
+          <input type="email" id="email" placeholder="Your email">
+        </label>
+        <label>
+          Password:
+          <input type="password" id="password" placeholder="Password">
+        </label>
+        <button type="submit">Sign Up</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with using JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
